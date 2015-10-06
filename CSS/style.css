@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	background-color: LightGray;
 }
@@ -11,14 +18,22 @@ li {
 	
 }
 .content {
-	background-color: white;
+	background-color: #fff;
 	color: black;
 	max-width: 50em;
 	margin: 0 auto;
 	padding: 0.7em;
-
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 		
 }
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+ }
 
 .links {
 	
@@ -31,12 +46,15 @@ li {
 }
 .top-navigation {
     background-color: #fff;
-    color: #4c5058;
-    font-weight: 500;
+    /*color: #4c5058;
+    font-weight: 500;*/
 }
 
 img {
 	float: left;
+	margin-left: -8px;
+    height: 50px;
+
 }
 
 a {
