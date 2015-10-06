@@ -1,0 +1,52 @@
+body {
+	background-color: LightGray;
+}
+div {
+	/*border: 1px solid Chocolate;*/
+}
+li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 1.5em;
+	
+}
+.content {
+	background-color: white;
+	color: black;
+	max-width: 50em;
+	margin: 0 auto;
+	padding: 0.7em;
+
+		
+}
+
+.links {
+	
+	text-align: right;
+}
+
+.active {
+	color: black;
+	font-weight: bold;
+}
+.top-navigation {
+    background-color: #fff;
+    color: #4c5058;
+    font-weight: 500;
+}
+
+img {
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	color: #838994;
+}
+
+a:hover {
+	color: black;
+}
+
+
+
