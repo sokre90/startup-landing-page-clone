@@ -18,14 +18,12 @@ li {
 	
 }
 .content {
-	background-color: #fff;
-	color: black;
 	max-width: 50em;
 	margin: 0 auto;
 	padding: 0.7em;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	color: #838994;
+	color: white;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 		
@@ -65,6 +63,40 @@ a {
 a:hover {
 	color: black;
 }
+.introduction {
+	background-image: url('http://i57.tinypic.com/2hn5nbc.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+	background-position: center bottom;
+	height: 45.938rem;
+	
+}
+h1, h3 {
+	color: white;
+	font-size: 50px;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 3.6em;
 
+}
 
-
+h3 {
+	font-size: 25px;
+	margin-top: -1em;
+}
+button {
+	padding: 16px 26px;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	color: white;
+	border-radius: 4px;
+	border-style: none;
+	font-size: 1.125rem;
+	margin: 0 auto;
+	display: block;
+	
+}
+button:hover {
+	background-color: #D43C0B; 
+}
