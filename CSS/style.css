@@ -1,54 +1,48 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+/**, *:before, *:after {
   box-sizing: inherit;
-}
+}*/
 
-body {
-	background-color: LightGray;
-}
-div {
-	/*border: 1px solid Chocolate;*/
-}
-li {
+.top-navigation .links li {
 	display: inline-block;
 	list-style: none;
 	margin-left: 1.5em;
 	
 }
+.introduction .content {
+	color: white;
+}
 .content {
-	max-width: 50em;
+	max-width: 65%;
 	margin: 0 auto;
 	padding: 0.7em;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	color: white;
 	letter-spacing: 0.03em;
-	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	
 		
 }
-.top-navigation .links > .active {
-    color: #4c5058;
-    font-weight: 500;
- }
 
 .links {
-	
 	text-align: right;
 }
 
-.active {
-	color: black;
-	font-weight: bold;
+.active a {
+	color: #4c5058;
+	font-weight: 500;
 }
 .top-navigation {
     background-color: #fff;
-    /*color: #4c5058;
-    font-weight: 500;*/
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #eaebec;
+
 }
 
-img {
+.top-navigation img {
 	float: left;
 	margin-left: -8px;
     height: 50px;
@@ -72,7 +66,7 @@ a:hover {
 	height: 45.938rem;
 	
 }
-h1, h3 {
+.introduction .content h1, h3 {
 	color: white;
 	font-size: 50px;
 	font-weight: lighter;
@@ -81,9 +75,10 @@ h1, h3 {
 
 }
 
-h3 {
-	font-size: 25px;
+.introduction .content h3 {
+	font-size: 1.563rem;
 	margin-top: -1em;
+	color: white;
 }
 button {
 	padding: 16px 26px;
@@ -95,8 +90,46 @@ button {
 	font-size: 1.125rem;
 	margin: 0 auto;
 	display: block;
+	margin-top: 0.5em;
 	
 }
 button:hover {
 	background-color: #D43C0B; 
 }
+
+.cases .devices > li {
+    width: 33.3333333%;
+    float: left;
+    list-style: none;
+
+   
+}
+
+ .cases .devices h2, h3 {
+ 	margin: 0 auto;
+ 	margin-top: 2em;
+    font-weight: lighter;
+    color: black;
+    font-weight: 400;
+
+}
+.cases h2 {
+	font-size: 2.75rem;
+	font-family: "Roboto";
+    font-weight: 300; 
+}
+.cases .devices h3 {
+	font-size: 1.563rem;
+}
+hr {
+    
+    margin-top: 21em;
+    border-top: 1px solid #eaebec;
+    max-width: 60%;
+
+    
+ }
+ .social .content h5 {
+ 	font-weight: 400;
+ 	font-size: 17px;
+ }
