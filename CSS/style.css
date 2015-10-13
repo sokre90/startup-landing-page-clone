@@ -1,9 +1,9 @@
 html {
   box-sizing: border-box;
 }
-/**, *:before, *:after {
+*, *:before, *:after {
   box-sizing: inherit;
-}*/
+}
 
 .top-navigation .links li {
 	display: inline-block;
@@ -22,6 +22,7 @@ html {
 	font-size: 16px;
 	letter-spacing: 0.03em;
 	text-align: center;
+	box-sizing: border-box;
 	
 		
 }
@@ -129,7 +130,48 @@ hr {
 
     
  }
- .social .content h5 {
+ .social h5 {
  	font-weight: 400;
- 	font-size: 17px;
+ 	font-size: 16px;
+ 	padding: 0;
+ 	margin: 0;
+ 	border: 0;
+ }
+ .social .icons li {
+ 	list-style: none;
+ 	display: inline-block;
+ 	border-radius: 1.25rem;
+ 	width: 2.5rem;
+ 	height: 2.5rem;
+ 	border: 1px solid #eaebec;
+ 	
+ }
+ .social ul {
+ 	padding: 0;
+ 	margin: 1rem 0 1rem 0;
+ 	border: 0;
+ 	vertical-align: baseline;
+ 	line-height: 2.5;
+ }
+ 
+ .social .icons li:hover {
+ 	cursor: pointer;
+}
+
+
+ .social .twitter {
+ 	color: #55acee;
+ }
+ .social .facebook {
+ 	color: #3f729b;
+ 	margin: 0 0.5rem 0 0.5rem;
+ }
+ .social .instagram {
+ 	color: #3f729b;
+ }
+ .copy {
+ 	font-size: 14px;
+ 	font-weight: 300;
+ 	padding-bottom: 10rem;
+
  }
