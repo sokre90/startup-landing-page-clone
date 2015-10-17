@@ -24,6 +24,8 @@ html {
 	text-align: center;
 	box-sizing: border-box;
 	
+
+	
 		
 }
 
@@ -59,12 +61,13 @@ a:hover {
 	color: black;
 }
 .introduction {
-	background-image: url('https://i57.tinypic.com/2hn5nbc.jpg');
+	background-image: url('http://i62.tinypic.com/33nysko.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: auto;
 	background-position: center bottom;
 	height: 45.938rem;
+	background-color: #DEDEDE;
 	
 }
 .introduction .content h1, h3 {
